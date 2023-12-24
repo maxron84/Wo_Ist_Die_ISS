@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 
 # Notlösung für das basemap-import-Problem unter debian 12:
-# pip install basemap--break-system-packages
+# pip install basemap --break-system-packages
 
 def wo_ist_die_iss():
     antwort = requests.get("http://api.open-notify.org/iss-now.json")
